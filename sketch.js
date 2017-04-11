@@ -1,7 +1,5 @@
 var x = 300;
-var speedx = 16;
-
-
+var speed = 16;
 
 function setup(){
     createCanvas(600,400);
@@ -25,33 +23,11 @@ function display(){
 
 function move(){
      //ball move
-    display();
     x = x + speed;
-    
 }
 function bounce(){
     //ball changes direction when it hits wall
     if(x > 600 || x < 0){
         speed = -speed;
     }
-    
-   
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
