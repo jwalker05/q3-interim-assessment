@@ -1,5 +1,5 @@
 var x = 300;
-var speed = 16;
+var speed = 13;
 
 function setup(){
     createCanvas(600,400);
@@ -10,7 +10,6 @@ function draw(){
     display();
     move();
     bounce();
-    
 }
 
 function display(){
